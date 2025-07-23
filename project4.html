@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Event Registration</h2>
+    <form>
+        <label for="name">Name:</label> 
+        <input type="text", id="name", placeholder="Enter name"><br><br>   
+
+        <label for="email">Email:</label> 
+        <input type="email", id="email", placeholder="Enter Email"><br><br>
+
+        <label for="phome">Phone:</label>
+        <input type="tel", id="phome", placeholder="Enter Phone"><br><br>
+
+        <label for="opt">Occupation:</label>
+        <select id="opt">
+        <option>Select</option>
+        <option>Beuraucrate</option>
+        <option>private</option>
+        <option>Buisness</option>
+        <option>Others</option>
+        </select> <br><br>
+
+        <fieldset style="display: inline-block;">
+            <legend>Topics of Interest</legend>
+            
+            <label for="topic1">HTML</label>
+            <input type="checkbox" id="topic1">
+
+            <label for="topic2">CSS</label>
+            <input type="checkbox" id="topic2">
+
+            <label for="topic3">JS</label>
+            <input type="checkbox" id="topic3">
+
+        </fieldset> <br><br>
+
+        <label for="tex">Comments:</label><br>
+        <textarea cols="40" rows="2" id="tex">Your Query: 
+        </textarea> <br><br>
+
+      
+
+        <input type="submit", value="Register", style="background-color: whitesmoke;">
+
+    </form>
+</body>
+</html>

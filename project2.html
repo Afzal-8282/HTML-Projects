@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+    <h2>Job Application</h2>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email"><br><br>
+
+    <label for="phome">Phone:</label><br>
+    <input type="tel" id="phome"><br><br>
+
+    <label for="res">Resume:</label><br>
+    <input type="file" id="res"><br><br>
+
+     <label for="sel">Experience (in years.)</label><br>
+     <input type="number" name="counter" id="sel" min="0" max="40"><br><br>
+
+     <fieldset style="display: inline;">
+        <legend>Skills</legend>
+
+        <label for="s1">HTML</label>
+        <input type="checkbox" id="s1"><br>
+
+        <label for="s2">CSS</label>
+        <input type="checkbox" id="s2"><br>
+
+        <label for="s3">JS</label>
+        <input type="checkbox" id="s3">
+     </fieldset><br><br>
+
+     <label for="edu">Highest Education</label><br>
+     <select id="edu">
+        <option>Select</option>
+        <option>10th</option>
+        <option>12th</option>
+        <option>Graduate</option>
+        <option>Post Graduate</option>
+        <option>Phd</option>
+     </select><br><br>
+
+     <fieldset style="display:inline">
+        <legend>Availability:</legend><br>
+
+        <label for="ava">Part-time</label>
+        <input type="radio" id="ava" name="gen" ><br><br>
+        <label for="ava1">Full-time</label>
+        <input type="radio" id="ava1" name="gen">
+     </fieldset><br><br>
+
+     <label for="com">Aditonal Comments:</label><br>
+     <textarea id="com" cols="40" rows="2">
+        Write your opinion:
+     </textarea><br><br>
+
+     <input type="submit" value="Submit Registerstion">
+
+     
+
+    </form>
+</html>
